@@ -60,7 +60,7 @@ const profile = {
     hardWorker: true,
     quickLearner: true,
     problemSolver: true,
-    yearsOfExperience: 4, 
+    yearsOfExperience: 0, 
     hireable: function() {
         return (
             this.hardWorker &&
@@ -300,3 +300,4 @@ const profile = {
     </>
   );
 }
+
