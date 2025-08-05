@@ -59,14 +59,12 @@ const profile = {
     ],
     hardWorker: true,
     quickLearner: true,
-    problemSolver: true,
-    yearsOfExperience: 0, 
+    problemSolver: true, 
     hireable: function() {
         return (
             this.hardWorker &&
             this.problemSolver &&
-            this.skills.length >= 5 &&
-            this.yearsOfExperience >= 3
+            this.skills.length >= 5
         );
     }
 };
@@ -79,7 +77,7 @@ const profile = {
     const style = document.createElement("style");
     style.textContent = `
       @keyframes gridPulse {
-        0%, 100% { opacity: 0.1; }
+        0%, 100% 0.1; }
         50% { opacity: 0.3; }
       }
       
@@ -300,4 +298,5 @@ const profile = {
     </>
   );
 }
+
 
