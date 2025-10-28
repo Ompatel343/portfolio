@@ -53,12 +53,12 @@ const profile = {
     name: 'Om Patel',
     title: 'Full-Stack Developer | Cloud Enthusiast | Problem Solver',
     skills: [
-      'HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Redux Toolkit',
+      'HTML', 'CSS', 'JavaScript', 'React',
       'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'MySQL',
-      'REST APIs', 'EJS', 'Tailwind CSS', 'Bootstrap', 'Framer Motion',
-      'React Router', 'Vite', 'Git', 'GitHub', 'VS Code', 'Figma',
-      'Netlify', 'Vercel', 'AWS', 'S3', 'EC2', 'Docker',
-      'Postman', 'Firebase', 'Jest', 'Linux', 'Problem Solving'
+      'REST APIs', 'EJS', 'Bootstrap',
+      'Git', 'GitHub', 'VS Code', 'Figma',
+      'Netlify', 'Vercel', 'AWS', 'S3', 'EC2',
+      'Postman', 'Linux', 'Problem Solving'
     ],
     hardWorker: true,
     quickLearner: true,
@@ -301,6 +301,7 @@ const profile = {
     </>
   );
 }
+
 
 
 
